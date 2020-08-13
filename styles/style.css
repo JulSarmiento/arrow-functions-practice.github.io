@@ -57,6 +57,7 @@ body {
     outline: none;
     border-radius: 10px;
     height: 20px;
+    text-align: center;
 }
 
 .btn {
@@ -96,4 +97,31 @@ body {
 
 .results-container-element p {
     max-width: 250px;
+}
+
+.array-list, .average-list {
+    text-align: center;
+    
+}
+
+/*Media queries*/
+@media screen and (min-width: 768px){
+    
+    body {
+        margin: 0 20% 
+    }
+}
+
+@media screen and (min-width: 1440px){
+    
+    body {
+        margin: 0 30% 
+    }
+}
+
+@media screen and (min-width: 2560px){
+    
+    body {
+        margin: 0 40% 
+    }
 }

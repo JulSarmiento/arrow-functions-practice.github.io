@@ -19,28 +19,27 @@
 
             <section class="form-container">
                 <h2 class="title">¡Promedio!</h2>
-                <p class="text">Por favor ingresa todos los números que desees, para terminar, escribe "00".</p>
+                <p class="text">Por favor ingresa todos los números que desees. Cuando los tengas todos, oprime "Generar".</p>
                 <form action="" id="form" class="form">
                     <div class="input-container">
-                        <label for="numbers" class="label-numbers">Ingresa los números que desees:</label>
-                        <input type="number" id="numbers" name="numbers" class="input-numers">
+                        <label for="numbers" class="label-numbers">Ingresa el valor:</label>
+                        <input type="number" id="numbers" name="numbers" class="input-numers" required>
                     </div>
-                    <button type="submit" class="btn">Ingresar</button>
+                    <button type="submit" class="btn add-number">Ingresar</button>
                 </form>
             </section>
 
 
             <section class="results-container">
                 <button class="btn promedy-result">Generar</button>
-                <button class="btn empezar de nuevo">Empezar de nuevo</button>
                 <div class="results-elements-container">
                     <div class="results-container-element">
                         <h3 class="subtitle">Su lista de números fueron:</h3>
-                        <p class="text"></p>
+                        <p class="text array-list"></p>
                     </div>
                     <div class="results-container-element">
                         <h3 class="subtitle">El resultado del promedio es:</h3>
-                        <p class="text"></p>
+                        <p class="text average-list"></p>
                     </div>
                 </div>
 
